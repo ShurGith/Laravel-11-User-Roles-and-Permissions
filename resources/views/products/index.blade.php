@@ -15,7 +15,7 @@
 </div>
 
 @session('success')
-    <div class="alert alert-success" role="alert"> 
+    <div class="alert alert-success" role="alert">
         {{ $value }}
     </div>
 @endsession
@@ -52,6 +52,4 @@
 </table>
 
 {!! $products->links() !!}
-
-<p class="text-center text-primary"><small>Tutorial by ItSolutionStuff.com</small></p>
 @endsection
