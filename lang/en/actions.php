@@ -13,6 +13,7 @@ return [
     'assign'          => 'Assign',
     'associate'       => 'Associate',
     'attach'          => 'Attach',
+    'back'            => 'Back',
     'browse'          => 'Browse',
     'cancel'          => 'Cancel',
     'choose'          => 'Choose',

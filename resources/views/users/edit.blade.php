@@ -4,10 +4,10 @@
 <div class="row">
     <div class="col-lg-12 margin-tb">
         <div class="pull-left">
-            <h2>Edit User</h2>
+            <h2>{{ __('actions.edit') }} {{ __('actions.user') }}</h2>
         </div>
         <div class="pull-right">
-            <a class="btn btn-primary btn-sm mb-2" href="{{ route('users.index') }}"><i class="fa fa-arrow-left"></i> Back</a>
+            <a class="btn btn-primary btn-sm mb-2" href="{{ route('users.index') }}"><i class="fa fa-arrow-left"></i> {{ __('actions.back') }}</a>
         </div>
     </div>
 </div>
@@ -30,7 +30,7 @@
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>Name:</strong>
+                <strong>{{ __('cms.name') }}:</strong>
                 <input type="text" name="name" placeholder="Name" class="form-control" value="{{ $user->name }}">
             </div>
         </div>
@@ -48,7 +48,7 @@
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>Confirm Password:</strong>
+                <strong>{{ __('cms.confirm_passw') }}:</strong>
                 <input type="password" name="confirm-password" placeholder="Confirm Password" class="form-control">
             </div>
         </div>
@@ -65,7 +65,7 @@
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-            <button type="submit" class="btn btn-primary btn-sm mt-2 mb-3"><i class="fa-solid fa-floppy-disk"></i> Submit</button>
+            <button type="submit" class="btn btn-primary btn-sm mt-2 mb-3"><i class="fa-solid fa-floppy-disk"></i> {{ __('actions.submit') }}</button>
         </div>
     </div>
 </form>
